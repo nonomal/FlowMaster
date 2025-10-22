@@ -26,7 +26,7 @@ show_menu() {
     local is_installed=$1
     
     echo -e "${GREEN}================================${NC}"
-    echo -e "${GREEN}    FlowMaster 管理菜单v1.1.15${NC}"
+    echo -e "${GREEN}    FlowMaster 管理菜单v1.1.16${NC}"
     echo -e "${GREEN}================================${NC}"
     
     if [ "$is_installed" = "true" ]; then
@@ -451,7 +451,7 @@ main() {
     
     # 显示菜单
     echo -e "${GREEN}================================${NC}"
-    echo -e "${GREEN}    FlowMaster 管理菜单v1.1.15${NC}"
+    echo -e "${GREEN}    FlowMaster 管理菜单v1.1.16${NC}"
     echo -e "${GREEN}================================${NC}"
     
     if [ "$is_installed" = "true" ]; then
